@@ -1,0 +1,76 @@
+.wrapper {
+    background-color: #181818;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modals {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.switchBtn {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.switchBtn p {
+    font-size: 18px;
+}
+
+.active {
+    text-decoration: underline;
+    color: red;
+}
+
+.input__parent {
+    width: 350px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+.input__parent input {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding-left: 15px;
+    font-size: 16px;
+    border: none;
+    background-color: #18181815;
+}
+
+.input__parent input:focus {
+    border: none;
+    outline: none;
+}
+
+.connected {
+    padding: 10px 0;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+    border: none;
+    background-color: #f64a4a;
+    color: white;
+}
+
+.error, .compte{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.error{
+    font-style: italic;
+    color:red;
+}

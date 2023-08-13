@@ -1,0 +1,51 @@
+{
+  "name": "editeur-texte",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "run-p type-check build-only",
+    "preview": "vite preview",
+    "test:unit": "vitest",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.32.0",
+    "@tiptap/extension-bold": "^2.0.4",
+    "@tiptap/extension-collaboration": "^2.0.4",
+    "@tiptap/extension-collaboration-cursor": "^2.0.4",
+    "@tiptap/extension-link": "^2.0.4",
+    "@tiptap/extension-paragraph": "^2.0.4",
+    "@tiptap/extension-text-style": "^2.0.4",
+    "@tiptap/extension-typography": "^2.0.4",
+    "@tiptap/extension-underline": "^2.0.4",
+    "@tiptap/pm": "^2.0.4",
+    "@tiptap/starter-kit": "^2.0.4",
+    "@tiptap/vue-3": "^2.0.4",
+    "@vueuse/core": "^10.3.0",
+    "pinia": "^2.1.6",
+    "vue": "^3.3.4",
+    "vue-localstorage": "^0.6.2",
+    "vue-router": "^4.2.4",
+    "y-prosemirror": "^1.2.1",
+    "y-webrtc": "^10.2.5",
+    "y-websocket": "^1.5.0",
+    "yjs": "^13.6.7"
+  },
+  "devDependencies": {
+    "@iconify/vue": "^4.1.1",
+    "@tsconfig/node18": "^18.2.0",
+    "@types/jsdom": "^21.1.1",
+    "@types/node": "^18.17.0",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/test-utils": "^2.4.1",
+    "@vue/tsconfig": "^0.4.0",
+    "jsdom": "^22.1.0",
+    "npm-run-all": "^4.1.5",
+    "typescript": "~5.1.6",
+    "vite": "^4.4.6",
+    "vitest": "^0.33.0",
+    "vue-tsc": "^1.8.6"
+  }
+}
